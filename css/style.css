@@ -5,6 +5,9 @@
     --color-brand-light: #819b57;
 }
 /* Base */
+body {
+    color: var(--color-primary-dark);
+}
 ul {
     list-style-type: none;
 }
