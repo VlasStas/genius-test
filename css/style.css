@@ -9,7 +9,15 @@ body {
   color: var(--color-primary-dark);
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
 }
+
+address {
+  font-style: normal;
+}
+
 ul {
   list-style-type: none;
 }
@@ -19,9 +27,10 @@ ul {
   border: 2px solid var(--color-brand-light);
   border-radius: 8px;
   padding: 16px 32px;
-  color: #faf4ea;
+  color: var(--color-primary-light);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
   font-weight: 600;
   line-height: normal;
   cursor: pointer;
@@ -35,10 +44,12 @@ ul {
   color: var(--color-primary-light);
   text-decoration: none;
   font-size: 18px;
+  line-height: 1.5;
 }
 
 .link:hover {
   color: var(--color-brand-light);
+  font-weight: 600;
 }
 /* Hero section */
 .hero_title {
@@ -49,9 +60,63 @@ ul {
 }
 /* Advaneges section */
 .advantages_list {
+  display: flex;
+  justify-content: space-around;
   background-color: var(--color-brand-light);
   color: var(--color-primary-light);
 }
+.advantages_item {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.section_title {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
 .section_title .accent {
   color: var(--color-brand-dark);
+}
+
+/* chef section */
+
+.chef_title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* format sections */
+
+.format-items {
+  display: flex;
+  justify-content: space-around;
+}
+.format_title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.center {
+  text-align: center;
+}
+.format_text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* Footer */
+
+.address_link {
+  text-decoration: none;
+  color: var(--color-primary-light);
+  font-size: 16px;
+  font-weight: 300;
+}
+.address_link:hover {
+  color: var(--color-brand-light);
+}
+
+.address_copyright {
+  font-size: 14px;
 }
