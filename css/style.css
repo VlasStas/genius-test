@@ -87,8 +87,6 @@ ul {
 }
 /* Advaneges section */
 .advantages_list {
-  display: flex;
-  justify-content: space-around;
   background-color: var(--color-brand-light);
   color: var(--color-primary-light);
 }
@@ -117,8 +115,6 @@ ul {
 /* format sections */
 
 .format-items {
-  display: flex;
-  justify-content: space-around;
 }
 .format_title {
   font-size: 24px;
