@@ -144,6 +144,7 @@ ul {
 /* Hero section */
 .hero_section {
   padding: 272px 0;
+  background-image: url();
 }
 .hero_title {
   color: var(--color-primary-light);
