@@ -26,8 +26,10 @@
 :root {
   --color-primary-dark: #31261a;
   --color-primary-light: #faf4ea;
+  --color-secondary-dark: #a28268;
   --color-brand-dark: #465929;
-  --color-brand-light: #819b57;
+  --color-brand-normal: #819b57;
+  --color-brand-light: #cfcfbc;
 }
 /* Base */
 * {
@@ -40,6 +42,7 @@ html {
 }
 body {
   color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -90,8 +93,8 @@ ul {
 
 /* Button */
 .button {
-  background-color: var(--color-brand-light);
-  border: 2px solid var(--color-brand-light);
+  background-color: var(--color-brand-normal);
+  border: 2px solid var(--color-brand-normal);
   border-radius: 8px;
   padding: 16px 32px;
   color: var(--color-primary-light);
@@ -115,7 +118,7 @@ ul {
 }
 
 .link:hover {
-  color: var(--color-brand-light);
+  color: var(--color-brand-normal);
 }
 
 /* Header */
@@ -144,7 +147,7 @@ ul {
 /* Hero section */
 .hero_section {
   padding: 272px 0;
-  background-image: url(../images/couple-in-bakery.jpg);
+  background-image: url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -156,12 +159,12 @@ ul {
   margin-bottom: 0;
 }
 .hero_title .accent {
-  color: var(--color-brand-light);
+  color: var(--color-brand-normal);
 }
 /* Advaneges section */
 .advantages-section {
   padding: 16px 0;
-  background-color: var(--color-brand-light);
+  background-color: var(--color-brand-normal);
 }
 .advantages_list {
   display: flex;
@@ -205,7 +208,7 @@ ul {
 }
 
 .traditions_text .brand {
-  color: var(--color-brand-light);
+  color: var(--color-brand-normal);
 }
 
 .traditions_text .uppercase {
@@ -219,7 +222,29 @@ ul {
 /* chef section */
 .chefs-title {
   margin-bottom: 80px;
+  position: relative;
 }
+
+.chefs-title::before,
+.chefs-title::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 352px;
+  border: 2px solid var(--color-brand-light);
+  bottom: 20px;
+}
+
+.chefs-title::after {
+  right: 0;
+}
+
+.chet-photo {
+  border-radius: 4px 4px 4px 200px;
+  box-shadow: -16px 16px 0 0 var(--color-primary-light),
+    -16px 16px 0 2px var(--color-secondary-dark);
+}
+
 .chef_title {
   margin-bottom: 16px;
   font-size: 40px;
@@ -239,6 +264,13 @@ ul {
 }
 
 .format-card {
+  height: 444px;
+  background: linear-gradient(
+    180deg,
+    rgba(49, 38, 26, 0) 55.21%,
+    rgba(49, 38, 26, 0.71) 72.92%,
+    var(--color-primary-dark) 100%
+  );
   padding: 24px;
   border: 1px solid #819b57; /* remove*/
   border-radius: 16px;
@@ -266,6 +298,14 @@ ul {
 
 /* Footer */
 
+.footer {
+  background-color: var(--color-primary-dark);
+  background-image: url(../images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .address_link {
   text-decoration: none;
   color: var(--color-primary-light);
@@ -273,7 +313,7 @@ ul {
   font-weight: 300;
 }
 .address_link:hover {
-  color: var(--color-brand-light);
+  color: var(--color-brand-normal);
 }
 
 .address_copyright {
