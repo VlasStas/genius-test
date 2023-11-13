@@ -218,8 +218,12 @@ ul {
 .traditions_text.limited {
   max-width: 340px;
 }
+.baker-photo {
+  border-radius: 400px 400px 4px 4px;
+}
 
 /* chef section */
+
 .chefs-title {
   margin-bottom: 80px;
   position: relative;
@@ -239,7 +243,21 @@ ul {
   right: 0;
 }
 
-.chet-photo {
+.chefs-list {
+  display: flex;
+  gap: 30px;
+}
+
+.chefs-item {
+  flex-basis: calc((100% - 30px) / 2);
+}
+
+.chef-card {
+  display: flex;
+  gap: 30px;
+}
+
+.chef-photo {
   border-radius: 4px 4px 4px 200px;
   box-shadow: -16px 16px 0 0 var(--color-primary-light),
     -16px 16px 0 2px var(--color-secondary-dark);
@@ -252,6 +270,12 @@ ul {
 }
 
 /* format sections */
+
+.formats-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
 
 .formats-list {
   display: flex;
@@ -296,6 +320,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   width: 44px;
   height: 44px;
   padding: 0;
@@ -312,6 +337,20 @@ ul {
 }
 
 /* Contact section */
+
+.contact-sections {
+  padding-bottom: 96px;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-map {
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: none;
+}
 
 .contact-title {
   margin-bottom: 16px;
