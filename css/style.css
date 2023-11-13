@@ -144,7 +144,10 @@ ul {
 /* Hero section */
 .hero_section {
   padding: 272px 0;
-  background-image: url();
+  background-image: url(../images/couple-in-bakery.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 .hero_title {
   color: var(--color-primary-light);
