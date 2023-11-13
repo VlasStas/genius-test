@@ -90,15 +90,17 @@
                 />
                 <div>
                   <h3 class="chef_title">Настя</h3>
-                  <p class="chef-text">Привіт, я Настя!</p>
-                  <p class="chef-text">
-                    Вже 10 років, я втілюю<br />
-                    у життя цікаві та смачні ідеї.
-                  </p>
-                  <p class="chef-text">
-                    Я випечу для вас<br />
-                    найсмачніші вироби!
-                  </p>
+                  <div class="chef-text">
+                    <p>Привіт, я Настя!</p>
+                    <p>
+                      Вже 10 років, я втілюю<br />
+                      у життя цікаві та смачні ідеї.
+                    </p>
+                    <p>
+                      Я випечу для вас<br />
+                      найсмачніші вироби!
+                    </p>
+                  </div>
                 </div>
               </article>
             </li>
@@ -111,15 +113,15 @@
                 />
                 <div>
                   <h3 class="chef_title">Влад</h3>
-                  <p class="chef-text">Привіт, я Влад!</p>
-                  <p class="chef-text">
-                    Мій кодитерський стаж вже 18 років.
-                    <span lang="en">SHOP BEKERY</span> - це наша любов, якою ми
-                    ділимось кожен раз з Вами через нашу випічку!
-                  </p>
-                  <p class="chef-text">
-                    Я зроблю для вас унікальну начинку на будь який смак!
-                  </p>
+                  <div class="chef-text">
+                    <p>Привіт, я Влад!</p>
+                    <p>
+                      Мій кодитерський стаж вже 18 років.
+                      <span lang="en">SHOP BEKERY</span> - це наша любов, якою
+                      ми ділимось кожен раз з Вами через нашу випічку!
+                    </p>
+                    <p>Я зроблю для вас унікальну начинку на будь який смак!</p>
+                  </div>
                 </div>
               </article>
             </li>
@@ -207,11 +209,14 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-container">
-          <nav>
-            <a href="#">
-              <img src="images/logo.svg" alt="logo" />
-            </a>
-            <ul>
+          <nav class="footer-nav">
+            <div class="footer-logo">
+              <a href="#">
+                <img src="images/logo.svg" alt="logo" />
+              </a>
+            </div>
+
+            <ul class="footer-menu">
               <li>
                 <a class="link" href="#traditions-section">Наші традиції</a>
               </li>
@@ -220,8 +225,8 @@
               <li><a class="link" href="#contact-sections">Контакти</a></li>
             </ul>
           </nav>
-          <address>
-            <ul>
+          <address class="footer-adress">
+            <ul class="address-list">
               <li>
                 <a class="address_link" href="tel:+38(096)0000007">
                   +38 (096) 000 00 07
@@ -256,66 +261,14 @@
                 </a>
               </li>
             </ul>
-            <a class="address_link" href="#" target="_blank"
-              >Політика конфіденційності</a
-            >
-            <p class="address_copyright">&copy 2022 Дані захищені</p>
+            <div class="address-info">
+              <a class="address_link" href="#" target="_blank"
+                >Політика конфіденційності</a
+              >
+              <p class="address_copyright">&copy 2022 Дані захищені</p>
+            </div>
           </address>
         </div>
-        <nav>
-          <a href="#">
-            <img src="images/logo.svg" alt="logo" />
-          </a>
-          <ul>
-            <li>
-              <a class="link" href="#traditions-section">Наші традиції</a>
-            </li>
-            <li><a class="link" href="#chefs-sections">Шеф-кухарі</a></li>
-            <li><a class="link" href="#format-sections">Формати</a></li>
-            <li><a class="link" href="#contact-sections">Контакти</a></li>
-          </ul>
-        </nav>
-        <address>
-          <ul>
-            <li>
-              <a class="address_link" href="tel:+38(096)0000007">
-                +38 (096) 000 00 07
-              </a>
-            </li>
-            <li>
-              <a class="address_link" href="mailto:shopbakery@gmail.com">
-                shopbakery@gmail.com
-              </a>
-            </li>
-            <li>
-              <a
-                class="address_link"
-                href="https://maps.app.goo.gl/vpB8r5CX4fG1u7wv7"
-                target="_blank"
-              >
-                Україна, м. Київ, вул. Січових Стрільців 54
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <svg class="address-icon" width="32" height="32">
-                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <svg class="address-icon" width="32" height="32">
-                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-          <a class="address_link" href="#" target="_blank"
-            >Політика конфіденційності</a
-          >
-          <p class="address_copyright">&copy 2022 Дані захищені</p>
-        </address>
       </div>
     </footer>
   </body>
