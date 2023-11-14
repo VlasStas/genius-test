@@ -477,7 +477,7 @@ ul {
   position: absolute;
   top: 40px;
   right: 40px;
-  border: none;
-  background: none;
+  /* border: none;
+  background: none; */
   cursor: pointer;
 }
