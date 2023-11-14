@@ -465,6 +465,12 @@ ul {
   justify-content: center;
 }
 
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .modal {
   position: relative;
   width: 780px;
@@ -477,7 +483,7 @@ ul {
   position: absolute;
   top: 40px;
   right: 40px;
-  /* border: none;
-  background: none; */
+  border: none;
+  background: none;
   cursor: pointer;
 }
