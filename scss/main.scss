@@ -5,14 +5,16 @@
 @import './utils/utils';
 @import './components/buttons';
 @import './components/links';
-@import './components/header';
-@import './components/hero';
-@import './components/advantages';
-@import './components/traditions';
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/advantages';
+@import './layouts/traditions';
+@import './layouts/section';
 @import './components/chef';
 @import './components/formats';
 @import './components/carusel';
 @import './components/contacts';
+@import './utils/texts';
 
 .container {
   width: 100%;
