@@ -116,6 +116,11 @@ ul {
   background-color: transparent;
   color: var(--color-brand-dark);
 }
+
+/* .button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+} */
 /* Link */
 .link {
   color: var(--color-primary-light);

@@ -320,14 +320,14 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-btn-close" type="button">X</button>
         <h2 class="center">Замовити дзвінок</h2>
         <p class="center">
           Залишіть заявку та наш спеціаліст зв'яжеться з Вами!
         </p>
-        <form action="#" name="modal-form" autocomplete="off" novalidate>
+        <form action="#" name="modal-form" autocomplete="off">
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-name"
               >Ім'я</label
@@ -338,6 +338,7 @@
               id="user-name"
               name="user-name"
               placeholder="Ім'я"
+              required
             />
           </div>
           <div class="form-field">
@@ -350,6 +351,7 @@
               id="user-tel"
               name="user-tel"
               placeholder="Телефон"
+              required
             />
           </div>
           <div class="form-field">
@@ -362,9 +364,10 @@
               id="user-email"
               name="user-email"
               placeholder="Електронна пошта"
+              required
             />
           </div>
-          <button class="form-button button" type="submit">
+          <button class="form-button button" type="submit" disabled>
             Замовити дзвінок
           </button>
           <p class="form-terms center">
