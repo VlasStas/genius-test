@@ -1,6 +1,8 @@
-.chefs-title {
-  margin-bottom: 80px;
-  position: relative;
+.chefs-section {
+  &__title {
+    margin-bottom: 80px;
+    position: relative;
+  }
 }
 
 .chefs-title::before,
