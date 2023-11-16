@@ -1,6 +1,11 @@
 .contact-sections {
   padding-bottom: 96px;
 
+  &__container {
+    display: flex;
+    gap: 20px;
+  }
+
   &__map {
     flex-shrink: 0;
     border-radius: 16px;
@@ -9,8 +14,4 @@
   &__title {
     margin-bottom: 16px;
   }
-}
-.contact-sections__container {
-  display: flex;
-  gap: 20px;
 }
