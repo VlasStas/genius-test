@@ -1,22 +1,25 @@
 /* Base */
+@import './base';
+
 @import './utils/fonts';
 @import './utils/variables';
-@import './base';
+@import './utils/texts';
 @import './utils/utils';
+
 @import './components/buttons';
 @import './components/links';
+@import './components/chef-card';
+@import './components/carusel';
+
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/advantages';
 @import './layouts/traditions';
 @import './layouts/section';
-@import './components/chef-card';
 @import './layouts/chef';
-@import './components/carusel';
 @import './layouts/contacts';
 @import './layouts/formats';
 @import './layouts/forms';
-@import './utils/texts';
 
 .container {
   width: 100%;
