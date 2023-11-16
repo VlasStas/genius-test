@@ -10,10 +10,12 @@
 @import './layouts/advantages';
 @import './layouts/traditions';
 @import './layouts/section';
+@import './components/chef-card';
 @import './layouts/chef';
 @import './layouts/formats';
+@import './layouts/forms';
 @import './components/carusel';
-@import './components/contacts';
+@import './layouts/contacts';
 @import './utils/texts';
 
 .container {
@@ -138,57 +140,4 @@
   border: none;
   background: none;
   cursor: pointer;
-}
-
-/* form */
-
-.form-field {
-  position: relative;
-  margin-bottom: 32px;
-}
-
-.form-label {
-  top: 16px;
-  left: 42px;
-  position: absolute;
-}
-
-.form-input {
-  padding: 16px 42px;
-  width: 100%;
-  font-size: 16px;
-  line-height: 1.17;
-  border: 1px solid var(--color-secondary-dark);
-  border-radius: 8px;
-  background-color: transparent;
-}
-
-.form-input:focus {
-  outline: none;
-  border-color: var(--color-brand-normal);
-}
-
-.form-input::placeholder {
-  color: var(--color-secondary-dark);
-  font-size: 16px;
-  line-height: 1.17;
-}
-
-.form-input:focus::placeholder {
-  color: var(--color-primary-dark);
-}
-
-.form-button {
-  display: block;
-  margin: 0 auto 24px;
-}
-
-.form-terms {
-  font-weight: 500;
-  font-size: 12px;
-}
-
-.form-terms-link {
-  color: var(--color-primary-dark);
-  text-underline-offset: 2px;
 }
