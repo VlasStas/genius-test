@@ -2,6 +2,7 @@
   padding-top: 96px;
   &__container {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 40px;
   }
@@ -17,8 +18,12 @@
       max-width: 340px;
     }
   }
-}
+  &__images {
+    display: none;
+    border-radius: 400px 400px 4px 4px;
 
-.baker-photo {
-  border-radius: 400px 400px 4px 4px;
+    @media screen and (min-width: $bp-tablet) {
+      display: block;
+    }
+  }
 }
