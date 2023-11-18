@@ -11,6 +11,7 @@
 @import './components/chef-card';
 @import './components/carusel';
 
+@import './layouts/modal.scss';
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/advantages';
@@ -21,7 +22,6 @@
 @import './layouts/formats';
 @import './layouts/forms';
 @import './layouts/mobile-menu';
-@import './layouts/modal.scss';
 
 .container {
   width: 100%;
