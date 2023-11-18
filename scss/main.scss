@@ -1,33 +1,33 @@
-/* Base */
+@import './utils/variables';
 @import './base';
 
 @import './utils/fonts';
-@import './utils/variables';
 @import './utils/texts';
+
 @import './utils/utils';
 
 @import './components/buttons';
-@import './components/links';
-@import './components/chef-card';
 @import './components/carusel';
+@import './components/chef-card';
+@import './components/links';
 
-@import './layouts/modal.scss';
-@import './layouts/header';
-@import './layouts/hero';
 @import './layouts/advantages';
-@import './layouts/section';
-@import './layouts/traditions';
 @import './layouts/chef';
 @import './layouts/contacts';
 @import './layouts/formats';
 @import './layouts/forms';
+@import './layouts/header';
+@import './layouts/hero';
 @import './layouts/mobile-menu';
+@import './layouts/modal.scss';
+@import './layouts/section';
+@import './layouts/traditions';
 
 .container {
   width: 100%;
   max-width: 1288px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 25px;
 }
 
 .footer-container {
