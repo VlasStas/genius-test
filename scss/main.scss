@@ -23,84 +23,11 @@
 @import './layouts/modal.scss';
 @import './layouts/section';
 @import './layouts/traditions';
+@import './layouts/footer';
 
 .container {
   width: 100%;
   max-width: 1288px;
   margin: 0 auto;
   padding: 0 25px;
-}
-
-.footer-container {
-  display: flex;
-  gap: 20px;
-}
-
-.footer-nav,
-.footer-adress {
-  display: flex;
-  flex-basis: 50%;
-  gap: 20px;
-}
-
-.footer-logo,
-.footer-menu {
-  flex-grow: 1;
-}
-
-.footer-adress,
-.address-info {
-  flex-grow: 1;
-}
-.footer {
-  position: relative;
-  padding: 32px 0;
-  background-color: var(--color-primary-dark);
-  background-image: url(../images/footer-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.footer::before,
-.footer::after {
-  position: absolute;
-  content: '';
-  bottom: 0;
-}
-
-.footer::before {
-  width: 179px;
-  height: 120px;
-  background-image: url('../images/decor-bread-smal.png');
-}
-
-.footer::after {
-  background-image: url('../images/decor-bread-large.png');
-  width: 305px;
-  height: 187px;
-  right: 0;
-}
-
-.address_link {
-  text-decoration: none;
-  color: var(--color-primary-light);
-  font-size: 16px;
-  font-weight: 300;
-}
-.address_link:hover {
-  color: var(--color-brand-normal);
-}
-
-.address-icon {
-  fill: var(--color-primary-light);
-}
-
-.address-icon:hover {
-  fill: var(--color-brand-normal);
-}
-
-.address_copyright {
-  font-size: 14px;
-  color: #a18268;
 }
